@@ -1,12 +1,12 @@
 import { Header } from "./styles/components/Header/Header";
-import { ProductCard } from "./styles/components/ProductCard/ProductCard";
+import { ProductsList } from "./styles/components/ProductsList/ProductsList";
 import { GlobalStyles } from "./styles/GlobalStyles";
 
 function App() {
   return (
     <>
-    <Header></Header>
-    <ProductCard></ProductCard>
+      <Header></Header>
+      <ProductsList />
       <GlobalStyles />
     </>
   );
