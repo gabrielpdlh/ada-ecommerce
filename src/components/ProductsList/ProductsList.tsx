@@ -1,5 +1,5 @@
 import { ProductCard } from "../ProductCard/ProductCard";
-import {products} from "../../../data/products"
+import {products} from "../../data/products"
 
 import * as S from "./styles";
 

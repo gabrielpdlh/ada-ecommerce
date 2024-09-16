@@ -1,5 +1,5 @@
-import { Header } from "./styles/components/Header/Header";
-import { ProductsList } from "./styles/components/ProductsList/ProductsList";
+import { Header } from "./components/Header/Header";
+import { ProductsList } from "./components/ProductsList/ProductsList";
 import { GlobalStyles } from "./styles/GlobalStyles";
 
 function App() {

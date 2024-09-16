@@ -2,7 +2,7 @@ import { FiShoppingCart } from "react-icons/fi";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 
 import * as S from "./styles";
-import { Product } from "../../../data/products";
+import { Product } from "../../data/products";
 
 interface ProductCardProps {
   product: Product;
