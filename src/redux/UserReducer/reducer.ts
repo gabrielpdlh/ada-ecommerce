@@ -20,5 +20,17 @@ interface UserAction{
 //          manipula/altera o estado 
 
 export function userReducer(state = initialState, action: UserAction): UserState {
+  if (action.type === 'user/login') {
+    return {
+      ...state,
+      user: action.payload as User,
+    }
+  } else if (action.type === 'user/logout'){
+    return {
+      ...state,
+      user: null,
+    }
+  }
+
   return state
 }
