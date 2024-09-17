@@ -70,3 +70,17 @@ align-items: center;
 gap: 0.3rem;
 font-size: 0.8rem;
 `
+export const RemoveFromCartButton = styled.button`
+border: none;
+border-radius: 5px;
+height:40px;
+width: 100%;
+background-color: violet;
+color:black;
+justify-content: center;
+
+display: flex;
+align-items: center;
+gap: 0.3rem;
+font-size: 0.8rem;
+`
