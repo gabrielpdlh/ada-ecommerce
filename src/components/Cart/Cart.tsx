@@ -4,6 +4,7 @@ import { RootReducer } from "../../redux/root-reducer";
 import { CiSquareRemove } from "react-icons/ci";
 import { removeProduct } from "../../redux/CartReducer/cart-slice";
 
+
 interface CartProps {
   showCart: boolean;
 }
